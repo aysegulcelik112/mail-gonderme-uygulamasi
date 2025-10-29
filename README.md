@@ -63,13 +63,16 @@ smtp.Credentials = new NetworkCredential("sizin@gmail.com", "uygulama_sifreniz")
 
 ## 📸 Ekran Görüntüleri
 
-*(Buraya uygulamanın ekran görüntülerini ekleyebilirsin)*
+<img width="1268" height="640" alt="image" src="https://github.com/user-attachments/assets/93c03880-57d2-41b8-9431-b58e8c5cd94f" />
+<img width="1189" height="369" alt="image" src="https://github.com/user-attachments/assets/afaae9dc-7163-452c-9474-fbf5ee7256bb" />
+
+
 
 ## 👨‍💻 Geliştirici
 
-**[Senin Adın]**
-- Staj Projesi - [Şirket/Kurum Adı]
-- Geliştirme Tarihi: [Tarih]
+**[Ayşe Gül Çelik]**
+- Staj Projesi -
+- Geliştirme Tarihi: [03.07.2025]
 
 ## 📝 Lisans
 
@@ -77,43 +80,9 @@ Bu proje eğitim amaçlı geliştirilmiştir.
 
 ## 🤝 İletişim
 
-Sorularınız için: [email@adresin.com]
+Sorularınız için: [aysegulcelik1128@gmail.com]
 
 ---
 ⭐ Bu projeyi beğendiyseniz yıldız vermeyi unutmayın!
 ```
 
-## Adım 5: .gitignore Dosyası Oluştur
-
-`.gitignore` adında dosya oluştur ve içine şunu ekle:
-```
-## Visual Studio gereksiz dosyaları
-
-# Build sonuçları
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-[Aa][Rr][Mm]/
-[Aa][Rr][Mm]64/
-bld/
-[Bb]in/
-[Oo]bj/
-
-# Visual Studio cache/options
-.vs/
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# Dosyalar
-*.exe
-*.dll
-*.pdb
-
-# NuGet Packages
-*.nupkg
-packages/
