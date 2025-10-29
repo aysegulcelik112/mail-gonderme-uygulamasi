@@ -25,7 +25,7 @@ namespace Mail_Gönderme_Uygulaması
                     if (File.Exists(filename))
                         mail.Attachments.Add(new Attachment(filename));
                 smtp.UseDefaultCredentials = false;
-                smtp.Credentials = new NetworkCredential("aysegulcelik1128@gmail.com", "gkvljcalnyilexxj");
+                smtp.Credentials = new NetworkCredential("YOUR_EMAIL@gmail.com", "YOUR_APP_PASSWORD");
                 smtp.EnableSsl = true;
                 smtp.Send(mail);
                 FRM_Alert alert = new();
